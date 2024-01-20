@@ -16,47 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <style>
-    .move {
-      height: 100vh;
-      border: 1px solid red;
-      position: relative;
-    }
-
-    .movei {
-      background-image: url(images/bc5cf8acf3154775817b6aec008f58a2-ezgif.com-webp-to-png-converter-removebg-preview.png);
-      overflow: hidden;
-      position: absolute;
-      top: 10%;
-      bottom: 0;
-      margin-left: 0%;
-      width: 100vw;
-      background-size: cover;
-      background-position: center;
-      z-index: -6;
-    }
-
-    .content{
-      padding-top: 20rem;
-    }
-  </style>
-  <script>
-
-    $(window).on("load resize scroll", function () {
-      $(".home").each(function () {
-        var scrollTop = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        var elementTop = $(this).offset().top;
-        var leftPos = scrollTop - elementTop;
-        var topPos = windowHeight - scrollTop; // Adjust based on window height and scroll position
-        $(this)
-          .find(".movei")
-          .css({ left: leftPos, top: topPos });
-      });
-    });
-
-
-  </script>
+  
 </head>
 
 <body>
@@ -89,11 +49,8 @@
       <p>Discover the events of Techno!!</p>
       <br>
       <br>
-      <a href="#" class="button-30">Register</a>
-      <div class="move">
-        <div class="movei">
-        </div>
-      </div>
+      <a href="#Events" class="button-30">Register</a>
+     
     </div>
     </div>
 
