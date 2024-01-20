@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSE IEEE CHAPTER</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Unicons CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <style>
+    .move {
+      height: 100vh;
+      border: 1px solid red;
+      position: relative;
+    }
+
+    .movei {
+      background-image: url(images/bc5cf8acf3154775817b6aec008f58a2-ezgif.com-webp-to-png-converter-removebg-preview.png);
+      overflow: hidden;
+      position: absolute;
+      top: 10%;
+      bottom: 0;
+      margin-left: 0%;
+      width: 100vw;
+      background-size: cover;
+      background-position: center;
+      z-index: -6;
+    }
+
+    .content{
+      padding-top: 20rem;
+    }
+  </style>
+  <script>
+
+    $(window).on("load resize scroll", function () {
+      $(".home").each(function () {
+        var scrollTop = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        var elementTop = $(this).offset().top;
+        var leftPos = scrollTop - elementTop;
+        var topPos = windowHeight - scrollTop; // Adjust based on window height and scroll position
+        $(this)
+          .find(".movei")
+          .css({ left: leftPos, top: topPos });
+      });
+    });
+
+
+  </script>
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav class="nav">
+    <i class="uil uil-bars navOpenBtn"></i>
+    <a href="#" class="logo">CSE Department</a>
+    <ul class="nav-links">
+      <i class="uil uil-times navCloseBtn"></i>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About Us">About Us</a></li>
+      <li><a href="#Committee">Committee</a></li>
+      <li><a href="#Events">Events</a></li>
+      <li><a href="#Sponsorship">Sponsorship</a></li>
+      <li><a href="#Contact Us">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- navbar ends -->
+
+
+
+
+
+  <!-- home section starts -->
+
+  <section class="home" id="Home">
+    <div class="content">
+      <h3><span style="font-size: 75px;">T</span>ECHNOTSAV 24'</h3>
+      <br>
+      <p>Discover the events of Techno!!</p>
+      <br>
+      <br>
+      <a href="#" class="button-30">Register</a>
+      <div class="move">
+        <div class="movei">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="controls">
+
+    </div>
+
+    <div class="video-container">
+      <video src="images/harry_slow.mp4" id="video-slider" loop autoplay muted style="opacity: 0.25; "></video>
+    </div>
+
+  </section>
+
+  <!-- home section ends -->
+
+
+
+
+
+  <!-- about us section starts -->
+  <section id="About Us">
+    <div style="background-color: rgba(35, 33, 33, 0.144);">
+      <div class="aheading">
+        <h1> About Us </h1>
+        <br>
+      </div>
+
+      <div class="acontainer">
+        <section class="about">
+          <div class="about-image">
+            <img src="images/2.png" width="85%" height="85%">
+          </div>
+          <div class="about-content">
+            <h2>Lorem ipsum dolor sit !</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sunt officia, in et reprehenderit animi
+              nesciunt accusantium voluptas repellat recusandae nemo ex eos cumque nam quo repellendus sapiente!
+              Maiores,
+              tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusamus consequatur, quo,
+              a
+              tempore vel dolorum cupiditate quia, asperiores earum magni sed molestiae veniam! Enim accusantium fugiat
+              provident alias corrupti.
+            </p>
+            <br>
+            <a href="#" class="button-30" style="margin-left: 33%;">Read More</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- about us section ends -->
+
+  <!-- Committee section starts -->
+  <section id="Committee">
+    <div class="aheading">
+      <h1>Committee</h1>
+    </div>
+    <div class="c-body">
+
+      <div class="ccontainer">
+        <div class="ccard" style="--clr:#ff3e7f;">
+          <div class="imgbx">
+            <img src="/images/IEEE-Logo.jpg" alt="IEEE Logo">
+          </div>
+          <div class="ccontent">
+            <h2>IEEE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="ccard" style="--clr:#009688;">
+          <div class="imgbx">
+            <img src="/images/sui white.JPG" alt="SUI GENERIS Image">
+          </div>
+          <div class="ccontent">
+            <h2>SUI GENERIS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="ccard" style="--clr:#03a9f4;">
+          <div class="imgbx">
+            <img src="/images/gdsc 1.jpg" alt="GDSC Image">
+          </div>
+          <div class="ccontent">
+            <h2>GDSC</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Committee section ends -->
+
+
+
+
+
+  <!-- Events section starts -->
+  <section id="Events">
+    <div class="aheading">
+      <h1>Events</h1>
+    </div>
+    <marquee direction="right"
+      style="background:black; color:white; font-family: cursive;  box-shadow: 0 0 20px #04e6e8; border: 2px solid white;">
+      Click the Event Poster for Registration!</marquee>
+    <br><br> <br>
+    <div class="e-body">
+      <div class="econtainer">
+        <div class="eitem-container">
+          <div class="eimg-container">
+            <img src="/images/img1.jpg" alt="Event image">
+          </div>
+
+          <div class="ebody-container">
+            <div class="eoverlay"></div>
+
+            <div class="event-info">
+              <p class="etitle">VR Gaming</p>
+              <div class="eseparator"></div>
+
+              <p class="eprice">&#8377 100</p>
+
+              <div class="additional-info">
+                <p class="einfo">
+                  <i class="fas fa-map-marker-alt"></i>
+                  CSE Department
+                </p>
+                <p class="einfo">
+                  <i class="far fa-calendar-alt"></i>
+                  Sat, Jan 27, 11:00 AM Onwards!
+                </p>
+
+                <p class="einfo description">
+                  <button class="button-30" style="background:linear-gradient(to right,#63ff21,#03a9f4);">RULES</button>
+                </p>
+              </div>
+            </div>
+            <button class="action">Register</button>
+          </div>
+        </div>
+
+
+        <div class="eitem-container">
+          <div class="eimg-container">
+            <img src="D:/web/images/img1.jpg" alt="Event image">
+          </div>
+
+          <div class="ebody-container">
+            <div class="eoverlay"></div>
+
+            <div class="event-info">
+              <p class="etitle">Talaash E Khazana</p>
+
+              <div class="eseparator"></div>
+
+              <p class="eprice">&#8377 100</p>
+
+              <div class="additional-info">
+                <p class="einfo">
+                  <i class="fas fa-map-marker-alt"></i>
+                  CSE Department [Starting Point]
+                </p>
+                <p class="einfo">
+                  <i class="far fa-calendar-alt"></i>
+                  Sat, Jan 27, 1:00 PM (Onwards)
+                </p>
+
+                <p class="einfo description">
+                  <button class="button-30" style="background:linear-gradient(to right,#63ff21,#03a9f4);">RULES</button>
+                </p>
+              </div>
+            </div>
+            <button class="action">Register</button>
+          </div>
+        </div>
+
+
+        <div class="eitem-container">
+          <div class="eimg-container">
+            <img src="/images/img1.jpg" alt="Event image">
+          </div>
+
+          <div class="ebody-container">
+            <div class="eoverlay"></div>
+
+            <div class="event-info">
+              <p class="etitle">Rocket League</p>
+
+              <div class="eseparator"></div>
+
+              <p class="eprice">&#8377 100</p>
+
+              <div class="additional-info">
+                <p class="einfo">
+                  <i class="fas fa-map-marker-alt"></i>
+                  ETC Entrance
+                </p>
+                <p class="einfo">
+                  <i class="far fa-calendar-alt"></i>
+                  Sat, Jan 27, 11:00 AM (Onwards)
+                </p>
+
+                <p class="einfo description">
+                  <button class="button-30" style="background:linear-gradient(to right,#63ff21,#03a9f4);">RULES</button>
+                </p>
+              </div>
+            </div>
+            <button class="action">Register</button>
+          </div>
+        </div>
+
+
+        <div class="eitem-container">
+          <div class="eimg-container">
+            <img src="/images/img1.jpg" alt="Event image">
+          </div>
+
+          <div class="ebody-container">
+            <div class="eoverlay"></div>
+
+            <div class="event-info">
+              <p class="etitle">Overnight Coding Competition
+              </p>
+              <div class="eseparator"></div>
+
+              <p class="eprice">&#8377 100</p>
+
+              <div class="additional-info">
+                <p class="einfo">
+                  <i class="fas fa-map-marker-alt"></i>
+                  CSE Department
+                </p>
+                <p class="einfo">
+                  <i class="far fa-calendar-alt"></i>
+                  Jan, Sep 27, 9:00 PM (Onwards)
+                </p>
+
+                <p class="einfo description">
+                  <button class="button-30" style="background:linear-gradient(to right,#63ff21,#03a9f4);">RULES</button>
+                </p>
+              </div>
+            </div>
+            <button class="action">Register</button>
+          </div>
+        </div>
+
+
+        <div class="eitem-container">
+          <div class="eimg-container">
+            <img src="D:/web/images/img1.jpg" alt="Event image">
+          </div>
+
+          <div class="ebody-container">
+            <div class="eoverlay"></div>
+
+            <div class="event-info">
+              <p class="etitle">Roadies X</p>
+              <div class="eseparator"></div>
+
+              <p class="eprice">&#8377 100</p>
+
+              <div class="additional-info">
+                <p class="einfo">
+                  <i class="fas fa-map-marker-alt"></i>
+                  Mechanical Department
+                </p>
+                <p class="einfo">
+                  <i class="far fa-calendar-alt"></i>
+                  Sat, Jan 27, 12:00 PM (Onwards)
+                </p>
+
+                <p class="einfo description">
+                  <button class="button-30" style="background:linear-gradient(to right,#63ff21,#03a9f4);">RULES</button>
+                </p>
+              </div>
+            </div>
+            <button class="action">Register</button>
+          </div>
+        </div>
+
+
+        <div class="eitem-container">
+          <div class="eimg-container">
+            <img src="/images/img1.jpg" alt="Event image">
+          </div>
+
+          <div class="ebody-container">
+            <div class="eoverlay"></div>
+
+            <div class="event-info">
+              <p class="etitle">Food , Dance Performances....</p>
+              <div class="eseparator"></div>
+
+              <p class="eprice">&#8377 100</p>
+
+              <div class="additional-info">
+                <p class="einfo">
+                  <i class="fas fa-map-marker-alt"></i>
+                  Elan Ground
+                </p>
+                <p class="einfo">
+                  <i class="far fa-calendar-alt"></i>
+                  Sat, Jan 27 , 3:00 PM (Onwards)
+                </p>
+
+                <p class="einfo description">
+                  <button class="button-30" style="background:linear-gradient(to right,#63ff21,#03a9f4);">RULES</button>
+                </p>
+              </div>
+            </div>
+            <button class="action">Register</button>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="move" style="width: 20%;">
+
+      </div>
+    </div>
+
+    <script>
+      $(window).on("load resize scroll", function () {
+        $(".e-body").each(function () {
+          var scrollTop = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          var elementTop = $(this).offset().top;
+          var leftPos = scrollTop - elementTop;
+          var topPos = windowHeight - scrollTop; // Adjust based on window height and scroll position
+          var speedFactor = 1.0; // Adjust the speed factor
+
+          // Adjust topPos and leftPos based on the window height
+          topPos = (elementTop + windowHeight - scrollTop) * speedFactor;
+
+          // Ensure the image stops at the lower-left corner
+          topPos = Math.min(windowHeight, topPos);
+
+          $(this)
+            .find(".move")
+            .css({ left: leftPos, top: topPos });
+        });
+      });
+
+    </script>
+
+  </section>
+
+
+  <!-- Events section ends -->
+
+
+
+
+
+  <!-- Sponsorship section starts -->
+  <section id="Sponsorship">
+    <div class="aheading">
+      <h1>Sponsorship</h1>
+    </div>
+    <div class="s-body">
+      <div class="section">
+        <div class="scontainer">
+          <div class="scard">
+            <div class="scontent">
+              <div class="simgBox"><img src="/images/pepsi-logo.png"></div>
+              <div class="scontentBox">
+                <div class="eseparator"></div>
+              </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="scard">
+            <div class="scontent">
+              <div class="simgBox"><img src="/images/google-logo.png"></div>
+              <div class="scontentBox">
+                <div class="eseparator"></div>
+              </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="scard">
+            <div class="scontent">
+              <div class="simgBox"><img src="/images/bentley.png"></div>
+              <div class="scontentBox">
+                <div class="eseparator"></div>
+              </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="scard">
+            <div class="scontent">
+              <div class="simgBox"><img src="/images/bentley.png"></div>
+              <div class="scontentBox">
+                <div class="eseparator"></div>
+              </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="scard">
+            <div class="scontent">
+              <div class="simgBox"><img src="/images/car-logos-bmw.jpg"></div>
+              <div class="scontentBox">
+                <div class="eseparator"></div>
+              </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="scard">
+            <div class="scontent">
+              <div class="simgBox"><img src="/images/gdsc 2.png"></div>
+              <div class="scontentBox">
+                <div class="eseparator"></div>
+              </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="scard">
+            <div class="scontent">
+              <div class="simgBox"><img src="/images/pringles.jpg"></div>
+              <div class="scontentBox">
+                <div class="eseparator"></div>
+              </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="scard">
+            <div class="scontent">
+              <div class="simgBox"><img src="/images/car-logos-bmw.jpg"></div>
+              <div class="scontentBox">
+                <div class="eseparator"></div>
+              </div>
+            </div>
+            <ul class="sci">
+              <li style="--i:1">
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- Section -->
+    </div>
+
+  </section>
+  <!-- Sponsorship section ends -->
+
+
+
+
+
+  <!-- Contact Us section starts -->
+  <section id="Contact Us">
+    <div class="aheading">
+      <h1>Contact Us</h1>
+    </div>
+  </section>
+
+
+
+
+  <!-- Contact Us section ends -->
+
+
+
+  <!-- Footer section starts -->
+
+  <footer>
+    <div class="footer-container">
+      <div class="contact-info">
+        <div class="contact-details">
+          <p>Amanpreet Singh</p>
+          <p>+91 1234567890</p>
+          <div class="social-icons">
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <div class="contact-details">
+          <p>Kaushal Topre</p>
+          <p>+91 1234567890</p>
+          <div class="social-icons">
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <div class="contact-details">
+          <p>Nilay Jain</p>
+          <p>+91 1234567890</p>
+          <div class="social-icons">
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="eseparator"></div>
+    <br>
+    <li style="color: aliceblue; font-family: cursive; list-style-type: none;">made with &#128151 by Technical Team</li>
+  </footer>
+
+  <!-- Footer section ends -->
+
+
+  <script src="/js/script.js" defer></script>
+
+
+
+</body>
+
+</html>
