@@ -412,7 +412,7 @@ a {
   }
 
   .eitem-container {
-    background: black;
+        background: TRANSPARENT;
     position: relative;
     width: 300px;
     /* Adjusted card width */
@@ -980,6 +980,7 @@ section {
 }
 
 .eitem-container {
+      background: TRANSPARENT;
   position: relative;
   width: 300px;
   /* Adjusted card width */
@@ -1495,6 +1496,7 @@ section {
   }
 
   .eitem-container {
+    background: TRANSPARENT;
     position: relative;
     width: 300px;
     /* Adjusted card width */
