@@ -952,7 +952,7 @@ section {
   min-height: 100%;
   width: 123%;
   font-size: 16px;
-  background-image: url('/images/s-bg1.jpg');
+  background-image: url(./images/eventbg.jpg);');
   filter: contrast(150%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -966,6 +966,7 @@ section {
 @media (min-width:720px){
   .e-body {
     width: 100%;
+    background-image: url(./images/eventbg.jpg);
   }
 }
 .econtainer {
