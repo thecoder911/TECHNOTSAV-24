@@ -1503,7 +1503,7 @@ section {
     height: 500px;
     /* Adjusted card height */
     overflow: hidden;
-    background-color: #fff;
+  
     box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
     cursor: pointer;
   }
