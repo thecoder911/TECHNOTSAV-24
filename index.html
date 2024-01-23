@@ -627,7 +627,25 @@ We're a vibrant student community of tech enthusiasts and learners, fueled by a 
   <!-- Footer section ends -->
 
 
-  <script src="/js/script.js" defer></script>
+ 
+
+    
+  <script>
+
+const nav = document.querySelector(".nav"),
+navOpenBtn = document.querySelector(".navOpenBtn"),
+navCloseBtn = document.querySelector(".navCloseBtn");
+
+navOpenBtn.addEventListener("click", () => {
+  nav.classList.add("openNav");
+});
+navCloseBtn.addEventListener("click", () => {
+  nav.classList.remove("openNav");
+});
+
+
+  </script>
+
 
 
 
